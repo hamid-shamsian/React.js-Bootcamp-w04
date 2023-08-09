@@ -1,0 +1,82 @@
+main {
+   color: #fff;
+   background-color: #000;
+   border: 2px solid #fff;
+   padding: 20px;
+   width: 600px;
+   margin: 20px auto;
+}
+
+h1 {
+   text-align: center;
+   font-size: 50px;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+}
+
+section {
+   display: flex;
+}
+
+.input-group {
+   margin-right: 50px;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+
+label {
+   color: red;
+   margin-top: 5px;
+}
+
+input {
+   border-radius: 5px;
+   padding: 10px;
+}
+
+select {
+   padding: 10px;
+   width: 100%;
+   border-radius: 5px;
+   font-size: large;
+   color: #666;
+}
+
+.select-box {
+   flex-direction: column;
+}
+
+.radio-box {
+   display: flex;
+   flex-direction: column;
+}
+
+.radio-box .input-group {
+   flex-direction: row;
+   align-items: center;
+}
+
+.radio-box-row .input-group {
+   width: auto;
+   align-items: center;
+   flex-direction: row;
+}
+
+h3 {
+   margin-right: 20px;
+}
+
+.submit {
+   padding: 10px;
+   background-color: deepskyblue;
+   border: 0;
+   border-radius: 10px;
+   display: inline-block;
+   margin: 20px auto;
+   width: 100px;
+   font-weight: 900;
+}

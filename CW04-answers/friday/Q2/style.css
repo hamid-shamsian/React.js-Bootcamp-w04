@@ -1,0 +1,81 @@
+* {
+   box-sizing: border-box;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   width: fit-content;
+   background-color: lightgreen;
+   padding: 5px;
+   margin: 20px auto;
+}
+
+.peach {
+   background-color: peachpuff;
+   width: 150px;
+   height: 50px;
+   border: 1px solid #888;
+}
+
+.blue {
+   background-color: aqua;
+   width: 50px;
+   height: 50px;
+   border: 1px solid #888;
+}
+
+.container > div {
+   display: flex;
+   gap: 5px;
+}
+
+.row-2 {
+   justify-content: space-between;
+}
+
+.row-2 div:last-child {
+   display: flex;
+   gap: 5px;
+}
+
+.row-3 {
+   justify-content: space-between;
+}
+
+.row-4 {
+   justify-content: flex-end;
+}
+
+.row-4 > div {
+   display: flex;
+   justify-content: flex-end;
+   gap: 5px;
+}
+
+.row-4 > div:last-child {
+   width: 150px;
+}
+
+.container .row-6 {
+   gap: 0;
+}
+
+.row-6 > div {
+   display: flex;
+}
+
+.row-6 > div:first-child {
+   width: 160px;
+   justify-content: flex-end;
+}
+
+.row-6 > div:last-child {
+   width: 150px;
+   justify-content: center;
+}
+
+.row-7 {
+   justify-content: space-between;
+}

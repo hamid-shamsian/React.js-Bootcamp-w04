@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Question 2</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <main>
+         <h1>Survey Form:</h1>
+         <hr />
+         <form>
+            <h2>Customer Name</h2>
+            <section>
+               <div class="input-group">
+                  <input type="text" id="first-name" />
+                  <label for="first-name">Enter Your First Name</label>
+               </div>
+               <div class="input-group">
+                  <input type="text" id="last-name" />
+                  <label for="last-name">Enter Your Last Name</label>
+               </div>
+            </section>
+            <h2>Address</h2>
+            <section class="select-box">
+               <select name="country" id="country">
+                  <option value="iran">Iran</option>
+                  <option value="iran">Iran</option>
+                  <option value="iran">Iran</option>
+               </select>
+               <label for="country">Select Country</label>
+            </section>
+            <h2>Contact</h2>
+            <section>
+               <div class="input-group">
+                  <input type="text" id="phone" />
+                  <label for="phone">Phone</label>
+               </div>
+               <div class="input-group">
+                  <input type="text" id="email" />
+                  <label for="email">Email</label>
+               </div>
+            </section>
+            <h2>Credentials</h2>
+            <section>
+               <div class="input-group">
+                  <input type="text" id="username" />
+                  <label for="username">Enter Your Username</label>
+               </div>
+               <div class="input-group">
+                  <input type="password" id="password" />
+                  <label for="password">Enter Your Password</label>
+               </div>
+            </section>
+            <h2>Personal Details</h2>
+            <section class="radio-box">
+               <div class="input-group">
+                  <input type="radio" name="gender" id="male" value="" />
+                  <label for="male">Male</label>
+               </div>
+               <div class="input-group">
+                  <input type="radio" name="gender" id="female" value="" />
+                  <label for="female">Female</label>
+               </div>
+               <div class="input-group">
+                  <input type="radio" name="gender" id="other" value="" />
+                  <label for="other">Other</label>
+               </div>
+            </section>
+            <h2>Ratings</h2>
+            <section class="radio-box-row">
+               <h3>Rating 1:</h3>
+               <div class="input-group">
+                  <input type="radio" name="gender" id="bad" value="" />
+                  <label for="bad">Bad</label>
+               </div>
+               <div class="input-group">
+                  <input type="radio" name="gender" id="good" value="" />
+                  <label for="good">Good</label>
+               </div>
+               <div class="input-group">
+                  <input type="radio" name="gender" id="excellent" value="" />
+                  <label for="excellent">Excellent</label>
+               </div>
+            </section>
+            <input type="submit" class="submit" id="submit" />
+         </form>
+      </main>
+      <script src="script.js"></script>
+   </body>
+</html>
